@@ -42,6 +42,8 @@ server.get("/health-check", async function() {
 } );
 
 
+
+
 async function main() {
     for (const schema of [...userSchema, ...productSchema]) {
         server.addSchema(schema);
