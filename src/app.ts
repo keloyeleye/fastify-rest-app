@@ -9,7 +9,6 @@ import fastifySwagger from "@fastify/swagger";
 import fastifySwaggerUi from "@fastify/swagger-ui";
 
 import pkg from "../package.json" with { type: "json" };
-
 const { version, name, description } = pkg;
 
 
